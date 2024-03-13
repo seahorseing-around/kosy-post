@@ -1,10 +1,12 @@
-# kosy-post for Fusion360
+# Fusion360 post Processor for Kosy 4 & NCCAD9
 
-A fixed Kosy Post processer for Fusion 360 for use with Kosy 4, 3 Degrees of Freedom milling machine. Produces valid GCode to be understood and used by NCCad9 from Kosy.
+Fusion 360 post processer for use with [Kosy 4](https://www.max-computer.de/kosy4.html) milling machine. Produces valid GCode to be run by [NCCad9](https://www.max-computer.de/nccad9.html) from Kosy, which controls the milling machine.
+
+A number of issues were identified with the cgeneated GCode from the Post processor provided by Fusion360 - this code resolves those.
 
 ## Items Resolved
 
-    *all changes in code marked with 'UPDATE'*
+_all changes in code marked with 'UPDATE'_
 
 1. Addition of underscores at start of program - not recognised by NCCad.
 2. Initial movement to Reference point G76 changed to G0 Z30 because of broken end stop sensor - G76 doesn't work
