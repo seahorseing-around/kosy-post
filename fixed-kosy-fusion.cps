@@ -11,8 +11,8 @@
   FORKID {793B9330-BD83-4d9c-B9A2-DB45CFF321E5}
 */
 
-description = "KOSY";
-vendor = "MAXcomputer GmbH";
+description = "KOSY + Fixes for NCCAD9";
+vendor = "MAXcomputer GmbH + Craig Hawes";
 vendorUrl = "http://www.max-computer.de";
 legal = "Copyright (C) 2012-2023 by Autodesk, Inc.";
 certificationLevel = 2;
